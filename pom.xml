@@ -29,7 +29,7 @@
   <name>Apache Commons VFS Project</name>
   <description>Apache Commons VFS is a Virtual File System library.</description>
   <packaging>pom</packaging>
-  <version>2.7.0-SNAPSHOT</version>
+  <version>2.10.0</version>
 
   <url>http://commons.apache.org/proper/commons-vfs/</url>
   <inceptionYear>2002</inceptionYear>
@@ -190,12 +190,12 @@
     <commons.clirr.version>2.6</commons.clirr.version>
     <!-- Avoid warnings about being unable to find jars during site building -->
     <dependency.locations.enabled>false</dependency.locations.enabled>
-    <hadoop.version>3.3.0</hadoop.version>
+    <hadoop.version>3.4.0</hadoop.version>
     <jackrabbit.version>1.6.5</jackrabbit.version>
-    <jackrabbit2.version>2.21.3</jackrabbit2.version>
+    <jackrabbit2.version>2.22.0</jackrabbit2.version>
     <commons.surefire.version>2.19.1</commons.surefire.version>
     <commons.japicmp.version>0.14.3</commons.japicmp.version>
-    <log4j2.version>2.13.3</log4j2.version>
+    <log4j2.version>2.17.1</log4j2.version>
   </properties>
 
   <build>
@@ -210,7 +210,7 @@
             <dependency>
               <groupId>org.apache.bcel</groupId>
               <artifactId>bcel</artifactId>
-              <version>6.5.0</version>
+              <version>6.6.0</version>
             </dependency>
           </dependencies>
         </plugin>
@@ -480,7 +480,7 @@
       <dependency>
         <groupId>commons-net</groupId>
         <artifactId>commons-net</artifactId>
-        <version>3.6</version>
+        <version>3.9.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -495,7 +495,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>4.5.12</version>
+        <version>4.5.13</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
@@ -505,7 +505,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-compress</artifactId>
-        <version>1.20</version>
+        <version>1.26.0</version>
       </dependency>
       <dependency>
         <groupId>ant</groupId>
@@ -559,7 +559,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.13</version>
+        <version>4.13.1</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
@@ -591,12 +591,12 @@
       <dependency>
         <groupId>org.apache.sshd</groupId>
         <artifactId>sshd-core</artifactId>
-        <version>0.8.0</version>
+        <version>2.7.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.mina</groupId>
         <artifactId>mina-core</artifactId>
-        <version>2.1.4</version>
+        <version>2.1.10</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
@@ -606,7 +606,7 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.8.0</version>
+        <version>2.14.0</version>
       </dependency>
       <!-- Test HTTP with Apache HttpComponent Core -->
       <dependency>
